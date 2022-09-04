@@ -1,0 +1,59 @@
+Camera:
+- BLSS
+- _Shrine::ReeDahee:
+    comment: Climber's Bandana
+
+- SCW
+- _Shrine::SheeVaneer
+- Activate shrine
+- Glide
+- _Shrine::SheeVenath
+
+- BLSS
+- _Npc::SheikaFemale<Skip Paya, Impa 1>:
+    movements:
+        - to: [1784.43, 228.91, 986.46]
+        - to: [1772.71, 229.43, 984.31]
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [1800.25, 219.63, 1012.57]
+- _Shop<Sell Ruby + Bandana>:
+    coord: [1792.02, 222.40, 1028.39]
+
+- .dir(N)
+- _Shrine::TalohNaeg
+
+- .dir(<S) -> BLSS:
+    coord: [1871.5,810.5]
+- _Shrine::MyahmAgana
+
+- .dir(N>) to .loc(Blue Flame):
+    coord: [3447.5,1982]
+    notes: Use Boko Spear.
+
+- .dir(E>) + .dir(E)
+- _Discover<Activate Tech Lab>:
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+- _Snap::Quest<Purah>:
+    coord: [3774.95, 357.00, 2126.02]
+
+- WARP
+- _Warp::Shrine::TalohNaeg:
+    line-color: lime
+
+- _Npc::SheikaFemale<Impa 2>:
+    coord: [1772.71, 229.43, 984.31]
+
+- .dir(<E)
+- 2 Fairy
+- _Snap::Quest<Great Fairy Fountain>:
+    coord: [1976.00, 267.50, 846.00]
+
+- .dir(<E) -> BLSS:
+    coord: [1871.5,810.5]
+- _Memory::LanayruRoad
+
+- WARP
+- _Warp::Tower::GreatPlateau

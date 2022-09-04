@@ -1,0 +1,47 @@
+Vah Ruta:
+- BLSS
+- _Memory::EldinCanyon
+
+- BLSS
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+    comment: Fish Drama
+
+- _Shrine::NeezYohma
+
+- _Npc::ZoraMale<Muzu>:
+    coord: [3303.90, 245.31, -496.23]
+    comment: Mipha Memory
+
+- .dir(<E) + .dir(<S)
+- _Npc::ZoraMale<Sidon>:
+    coord: [3598.55, 316.00, -330.31]
+
+- Shoot 4 targets
+- Enter Ruta:
+    icon: ruta-enter
+    coord: [3662.40, 315.66, -175.42]
+    time-override: 999
+    split-type: UserDefined
+
+- Complete Divine Beast
+- .gale():
+    gale: 1
+- .boss(Waterblight):
+    icon: calamity
+    hide-icon-on-map: true
+
+- Mipha's Grace:
+    icon: ruta-done
+    movements:
+        - to: [3283.5,-431]
+          warp: true
+    split-type: UserDefined
+
+- .dir(N>)
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+    line-color: white
+
+- WARP
+- _Warp::VahRudania

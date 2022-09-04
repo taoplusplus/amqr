@@ -1,0 +1,86 @@
+Vah Naboris:
+- BLSS
+- _Npc::SheikaMale<Benja>:
+    coord: [-3804.64, 149.50, 2818.36]
+- _Shrine::DaqoChisay
+
+- BLSS
+- _Memory::KaraKaraBazaar
+
+- .dir(<W)
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy clothes
+
+- BLSS
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- _Warp::Shrine::MoggLatan
+
+- BLSS -> .dir(S) + .dir(S) + .dir(SW)
+- Clip in to .loc(Yiga Hideout)
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+- 5 Normal Arrow
+- .boss(Kohga):
+    icon: calamity
+    split-type: UserDefined
+    hide-icon-on-map: true
+- _Chest::Special<Thunderhelm>:
+    coord: [-3451.00, 440.69, 1331.50]
+
+- Raid hideout
+- _Chest<2 Gold Rupee>:
+    coord: [-3531.14, 443.27, 1351.34]
+    var-change:
+        Rupee: 600
+    notes: .v(Rupee) rupees
+- .gale():
+    gale: 1
+- _Material<Mighty Bananas,18>:
+    coord: [-3576.71, 456.27, 1312.26]
+
+- WARP
+- _Warp::Shrine::DaqoChisay
+
+- Run
+- _Shop<Buy 30 Shock Arrows>
+- _Cook<4 Attack Food>:
+    coord: [-3834.92, 148.98, 2946.04]
+- _Npc<Riju>:
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: Urbosa Memory
+
+- .dir(W>)
+- _Npc<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+    comment: At outpost
+
+- Ride sand seal
+- Enter Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]
+    split-type: UserDefined
+
+- Complete Divine Beast
+- .gale():
+    gale: 2
+- .boss(Thunderblight):
+    icon: calamity
+    hide-icon-on-map: true
+
+- Urbosa's Fury:
+    icon: naboris-done
+    movements:
+        - to: [-3772,2851]
+          warp: true
+    split-type: UserDefined
+    line-color: red
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- WARP
+- _Warp::Shrine::SheeVaneer

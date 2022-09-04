@@ -1,0 +1,43 @@
+Memories:
+- BLSS
+- _Shrine::MaagNorah
+
+- .dir(NE) + .dir(E>)
+- _Shrine::MonyaToma
+
+- .dir(E>)
+- _Memory::IrchPlain
+
+- BLSS -> WB
+- _Memory::HyruleCastle
+- _Equipment::Weapon<Edge of Duality>:
+    notes: Kill Moblin with GEB and ice arrows.
+    coord: [-311.81, 256.46, -997.30]
+
+- BLSS
+- _Memory::SacredGrounds
+
+- BLSS
+- _Memory::HyruleField
+
+- .dir(<S)
+- _Shrine::HilaRao
+
+- .dir(<W)
+- _Shrine::WahgoKatta
+
+- .dir(S>)
+- _Shrine::BoshKala
+
+- .dir(<S)
+- _Memory::WestNecluda
+
+- BLSS
+- _Memory::LakeKolomo
+
+- .dir(<N)
+- _Shrine::KaamYatak
+
+- WARP
+- _Warp::Shrine::KehNamut:
+    line-color: gold

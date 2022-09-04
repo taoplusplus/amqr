@@ -1,0 +1,53 @@
+Ganon:
+- BLSS:
+    notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=7344)
+- _Memory::SpringofPower
+
+- WARP
+- _Warp::Shrine::TalohNaeg
+
+- _Npc<Pikango>:
+    coord: [1828.22, 218.59, 990.14]
+    comment: Find the Fairy Fountain
+- _Npc::SheikaFemale<Impa 3>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Champion's Tunic
+
+- _Warp::Shrine::ReeDahee
+
+- .dir(E>)
+- _Shrine::HaDahamar
+
+- .dir(E>)
+- _Memory::AshSwamp
+
+- .dir(S>)
+- _Shrine::TotoSah
+
+- WARP
+- _Warp::Shrine::ShaeMosah
+
+- .dir(S)
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+
+- .dir(<W) + .dir(<W)
+- _Shrine::KeoRuug
+
+- Get 6 Hearts
+
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
+
+- .dir(N) + .gale() -> BLSS:
+    gale: 1
+- .boss(Calamity Ganon):
+    icon: ganon
+    coord: [-254.00, 191.01, -1061.37]
+    comment: Fight
+    split-type: UserDefined
+- .boss(Dark Beast Ganon):
+    icon: ganon
+    comment: Don't die
+    split-type: UserDefined
+    hide-icon-on-map: true

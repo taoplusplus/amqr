@@ -1,0 +1,26 @@
+---
+_project:
+  authors:
+    - TaoPlusPlus
+  description: ""
+  name: All Main Quests Restricted
+  url: ""
+  version: 0.1.0
+_route:
+  - (==) This is the current (2022-06-01) wr run by .link([Zdi]https://www.speedrun.com/user/Zdi), .link([video link]https://youtu.be/V9NIbUgGs2k)
+  - Plateau:
+      - __use__ Plateau
+  - Camera:
+      - __use__ Camera
+  - Vah Medoh:
+      - __use__ Vah Medoh
+  - Memories:
+      - __use__ Memories
+  - Vah Naboris:
+      - __use__ Vah Naboris
+  - Vah Rudania:
+      - __use__ Vah Rudania
+  - Vah Ruta:
+      - __use__ Vah Ruta
+  - Cleanup:
+      - __use__ Ganon

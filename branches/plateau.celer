@@ -1,0 +1,44 @@
+Plateau:
+- SoR clip:
+    notes: Do not activate time of day.
+
+- .loc(Boko Camp)
+- +_Material<6 Spicy Pepper>:
+    coord: [-965.30, 238.52, 1956.67]
+- +_Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- +_Equipment::Weapon<Boko Spear>:
+    hide-icon-on-map: true
+
+- .loc(Temple of Time):
+    notes: Clip in.
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+- 5 Normal Arrow:
+    icon: bow
+    hide-icon-on-map: true
+
+- BLSS:
+    notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
+- _Shrine::JaBaij
+
+- BLSS
+- _Tower::GreatPlateau
+
+- Jump down -> BLSS
+- _Chest<1 Ruby>:
+    coord: [-671.65, 171.79, 1522.61]
+- _Shrine::OmanAu
+
+- BLSS -> .dir(.W)
+- _Shrine::OwaDaim:
+    comment: Get Hammer
+
+- Boulder launch -> BLSS
+- _Shrine::KehNamut
+
+- BLSS
+- _Npc<Paraglider>:
+    icon: king
+    coord: [-812, 1966.1012189378007]
+    split-type: UserDefined

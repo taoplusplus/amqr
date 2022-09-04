@@ -1,0 +1,72 @@
+Vah Medoh:
+- BLSS
+- _Memory::SanidinPark
+
+- BLSS -> WB
+- _Material<4+ Sunshroom>:
+    notes: And other mushrooms
+    coord: [-2181.51, 268.68, 791.05]
+
+- .dir(N) + .dir(W)
+- _Material<Diamond>:
+    coord: [-2247.90, 353.39, 662.05]
+
+- .dir(N>)
+- _Material<Hearty Durian,10>:
+    coord: [-2190.5,441]
+
+- .dir(W)
+- _Shrine::MoggLatan
+
+- BLSS
+- _Memory::AncientColumns
+
+- BLSS
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali Memory
+
+- .dir(<N)
+- _Shrine::ShaWarvo
+
+- .dir(N>)
+- 10 Normal Arrow
+- _Equipment::Bow<Swallow Bow>:
+    hide-icon-on-map: true
+- _Cook<Cold and Hearty Food>:
+    coord: [-3792.60, 267.34, -2319.19]
+- _Npc::Rito<Teba>:
+    coord: [-3798.52, 267.35, -2314.14]
+- Shoot 5 targets
+- _Chest<Falcon Bow>:
+    hide-icon-on-map: true
+- Shoot 4 cannons
+
+- Enter Medoh:
+    icon: medoh-enter
+    split-type: UserDefined
+    coord: [-3620.00, 739.95, -2110.00]
+
+- Complete Divine Beast
+- _Chest<10 Ice Arrow>:
+    hide-icon-on-map: true
+- .boss(Windblight):
+    icon: calamity
+    hide-icon-on-map: true
+
+- Revali's Gale:
+    icon: medoh-done
+    movements:
+        - to: [-3565.625,-1817.375]
+          warp: true
+    split-type: UserDefined
+    line-color: plum
+- _Npc<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+- _Chest::Special<Great Eagle Bow>:
+    hide-icon-on-map: true
+
+- Run
+- _Shrine::AkhVaquot
